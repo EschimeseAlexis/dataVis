@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { FirstVueComponent } from './visualisation/first-vue/first-vue.component';
+import { SecondVueComponent } from './visualisation/second-vue/second-vue.component';
+import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path : 'first-vue', component : FirstVueComponent },
+  { path : 'second-vue', component : SecondVueComponent },
+  { path : 'third-vue', component : ThirdVueComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
