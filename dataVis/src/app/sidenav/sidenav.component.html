@@ -1,0 +1,33 @@
+<div class="sidenav">
+  <h3>DASHBOARD</h3>
+  <div class="sidenav-menu">
+    <div class="sidenav-menu-header">
+      <div class="sidenav-menu-header-title">
+        <img src="../../assets/television.png" alt="PolyMTV logo"/>
+        <p>POLYMTV</p>
+      </div>
+      <div class="line"></div>
+    </div>
+    <mat-button-toggle-group name="visualisation-technique" aria-label="Visualisation technique">
+      <a routerLink="/first-vue">
+        <mat-button-toggle value="first">
+          <img src="../../assets/afrique.png" alt="PolyMTV logo"/>
+          HeatMap
+        </mat-button-toggle>
+      </a>
+      <a routerLink="/second-vue">
+        <mat-button-toggle value="second">
+          <img src="../../assets/sunburst.png" alt="PolyMTV logo"/>
+          SunBurst
+        </mat-button-toggle>
+      </a>
+      <a routerLink="/third-vue">
+        <mat-button-toggle value="third">
+          <img src="../../assets/graphique-treemap.png" alt="PolyMTV logo"/>
+          TreeMap
+        </mat-button-toggle>
+      </a>
+    </mat-button-toggle-group>
+  </div>
+
+</div>

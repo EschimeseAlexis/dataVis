@@ -10,6 +10,8 @@ import { FooterComponent } from './footer/footer.component';
 import { FirstVueComponent } from './visualisation/first-vue/first-vue.component';
 import { SecondVueComponent } from './visualisation/second-vue/second-vue.component';
 import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { MatButtonToggleModule } from "@angular/material/button-toggle";
 
 @NgModule({
   declarations: [
@@ -18,13 +20,15 @@ import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component
     FooterComponent,
     FirstVueComponent,
     SecondVueComponent,
-    ThirdVueComponent
+    ThirdVueComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatTabsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
