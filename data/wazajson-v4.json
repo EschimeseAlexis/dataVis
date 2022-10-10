@@ -1,0 +1,272 @@
+[
+    {
+        "code": "EUR",
+        "parent": null,
+        "name": "Europe",
+        "population": 1700
+    },
+    {
+        "code": "AM",
+        "parent": null,
+        "name": "America",
+        "population": 1928
+    },
+    {
+        "code": "AFC",
+        "parent": null,
+        "name": "Africa",
+        "population": 4
+    },
+    {
+        "code": "ASA",
+        "parent": null,
+        "name": "Asia",
+        "population": 122
+    },
+    {
+        "code": "OCE",
+        "parent": null,
+        "name": "Australia",
+        "population": 71
+    },
+    {
+        "code": "unknown",
+        "parent": null,
+        "name": "unknown",
+        "population": 3973
+    },
+    {
+        "code": "AR",
+        "parent": "America",
+        "name": "Argentina",
+        "population": 19
+    },
+    {
+        "code": "AT",
+        "parent": "Europe",
+        "name": "Austria",
+        "population": 30
+    },
+    {
+        "code": "AU",
+        "parent": "Australia",
+        "name": "Australia",
+        "population": 71
+    },
+    {
+        "code": "BE",
+        "parent": "Europe",
+        "name": "Belgium",
+        "population": 28
+    },
+    {
+        "code": "BR",
+        "parent": "America",
+        "name": "Brazil",
+        "population": 83
+    },
+    {
+        "code": "CA",
+        "parent": "America",
+        "name": "Canada",
+        "population": 37
+    },
+    {
+        "code": "CL",
+        "parent": "America",
+        "name": "Chile",
+        "population": 15
+    },
+    {
+        "code": "CZ",
+        "parent": "Europe",
+        "name": "Czech Republic",
+        "population": 11
+    },
+    {
+        "code": "DE",
+        "parent": "Europe",
+        "name": "Germany",
+        "population": 543
+    },
+    {
+        "code": "DK",
+        "parent": "Europe",
+        "name": "Denmark",
+        "population": 31
+    },
+    {
+        "code": "EE",
+        "parent": "Europe",
+        "name": "Estonia",
+        "population": 9
+    },
+    {
+        "code": "ES",
+        "parent": "Europe",
+        "name": "Spain",
+        "population": 19
+    },
+    {
+        "code": "FI",
+        "parent": "Europe",
+        "name": "Finland",
+        "population": 127
+    },
+    {
+        "code": "FO",
+        "parent": "Europe",
+        "name": "Faroe Islands",
+        "population": 8
+    },
+    {
+        "code": "FR",
+        "parent": "Europe",
+        "name": "France",
+        "population": 93
+    },
+    {
+        "code": "GB",
+        "parent": "Europe",
+        "name": "Great Britain",
+        "population": 439
+    },
+    {
+        "code": "GR",
+        "parent": "Europe",
+        "name": "Greece",
+        "population": 1
+    },
+    {
+        "code": "HR",
+        "parent": "Europe",
+        "name": "Croatia",
+        "population": 4
+    },
+    {
+        "code": "IN",
+        "parent": "Asia",
+        "name": "India",
+        "population": 2
+    },
+    {
+        "code": "IT",
+        "parent": "Europe",
+        "name": "Italy",
+        "population": 92
+    },
+    {
+        "code": "JP",
+        "parent": "Asia",
+        "name": "Japan",
+        "population": 108
+    },
+    {
+        "code": "MX",
+        "parent": "America",
+        "name": "Mexico",
+        "population": 2
+    },
+    {
+        "code": "NL",
+        "parent": "Europe",
+        "name": "Netherlands",
+        "population": 44
+    },
+    {
+        "code": "NO",
+        "parent": "Europe",
+        "name": "Norway",
+        "population": 61
+    },
+    {
+        "code": "PL",
+        "parent": "Europe",
+        "name": "Poland",
+        "population": 27
+    },
+    {
+        "code": "PT",
+        "parent": "Europe",
+        "name": "Portugal",
+        "population": 10
+    },
+    {
+        "code": "RO",
+        "parent": "Europe",
+        "name": "Romania",
+        "population": 5
+    },
+    {
+        "code": "RS",
+        "parent": "Europe",
+        "name": "Serbia",
+        "population": 3
+    },
+    {
+        "code": "RU",
+        "parent": "Asia",
+        "name": "Russia",
+        "population": 12
+    },
+    {
+        "code": "SE",
+        "parent": "Europe",
+        "name": "Sweden",
+        "population": 56
+    },
+    {
+        "code": "SI",
+        "parent": "Europe",
+        "name": "Slovenia",
+        "population": 3
+    },
+    {
+        "code": "UA",
+        "parent": "Europe",
+        "name": "Ukraine",
+        "population": 1
+    },
+    {
+        "code": "US",
+        "parent": "America",
+        "name": "United States of America",
+        "population": 1769
+    },
+    {
+        "code": "VE",
+        "parent": "America",
+        "name": "Venezuela",
+        "population": 3
+    },
+    {
+        "code": "XE",
+        "parent": "Europe",
+        "name": "European",
+        "population": 54
+    },
+    {
+        "code": "XW",
+        "parent": "unknown",
+        "name": "World wide",
+        "population": 82
+    },
+    {
+        "code": "YU",
+        "parent": "Europe",
+        "name": "Yugoslavia",
+        "population": 1
+    },
+    {
+        "code": "ZA",
+        "parent": "Africa",
+        "name": "South Africa",
+        "population": 4
+    },
+    {
+        "code": "unknown",
+        "parent": "unknown",
+        "name": "Unknown",
+        "population": 3891
+    }
+]
