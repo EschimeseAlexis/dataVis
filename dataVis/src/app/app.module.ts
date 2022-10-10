@@ -11,7 +11,8 @@ import { FirstVueComponent } from './visualisation/first-vue/first-vue.component
 import { SecondVueComponent } from './visualisation/second-vue/second-vue.component';
 import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-import { MatButtonToggleModule } from "@angular/material/button-toggle";
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { IgxTreemapModule } from 'igniteui-angular-charts';
 
 @NgModule({
   declarations: [
@@ -28,9 +29,11 @@ import { MatButtonToggleModule } from "@angular/material/button-toggle";
     AppRoutingModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    MatButtonToggleModule
+    MatButtonToggleModule,
+    IgxTreemapModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
