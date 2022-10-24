@@ -1,0 +1,934 @@
+{
+    "name": "World",
+    "children": [
+        {
+            "name": "Europe",
+            "children": [
+                {
+                    "name": "Ukraine",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Norway",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 23
+                        },
+                        {
+                            "name": "metal",
+                            "size": 3
+                        },
+                        {
+                            "name": "pop",
+                            "size": 2
+                        },
+                        {
+                            "name": "rock",
+                            "size": 21
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 12
+                        }
+                    ]
+                },
+                {
+                    "name": "Belgium",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 10
+                        },
+                        {
+                            "name": "metal",
+                            "size": 3
+                        },
+                        {
+                            "name": "folk",
+                            "size": 2
+                        },
+                        {
+                            "name": "pop",
+                            "size": 8
+                        },
+                        {
+                            "name": "rock",
+                            "size": 2
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Great Britain",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 31
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 35
+                        },
+                        {
+                            "name": "metal",
+                            "size": 27
+                        },
+                        {
+                            "name": "folk",
+                            "size": 14
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 10
+                        },
+                        {
+                            "name": "rap",
+                            "size": 2
+                        },
+                        {
+                            "name": "pop",
+                            "size": 54
+                        },
+                        {
+                            "name": "rock",
+                            "size": 212
+                        },
+                        {
+                            "name": "classic",
+                            "size": 5
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 49
+                        }
+                    ]
+                },
+                {
+                    "name": "Slovenia",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Netherlands",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 2
+                        },
+                        {
+                            "name": "metal",
+                            "size": 7
+                        },
+                        {
+                            "name": "folk",
+                            "size": 1
+                        },
+                        {
+                            "name": "rock",
+                            "size": 23
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 11
+                        }
+                    ]
+                },
+                {
+                    "name": "Croatia",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Denmark",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 1
+                        },
+                        {
+                            "name": "metal",
+                            "size": 8
+                        },
+                        {
+                            "name": "folk",
+                            "size": 1
+                        },
+                        {
+                            "name": "pop",
+                            "size": 13
+                        },
+                        {
+                            "name": "rock",
+                            "size": 4
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Yugoslavia",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Germany",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 35
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 95
+                        },
+                        {
+                            "name": "metal",
+                            "size": 139
+                        },
+                        {
+                            "name": "folk",
+                            "size": 9
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 2
+                        },
+                        {
+                            "name": "rap",
+                            "size": 4
+                        },
+                        {
+                            "name": "pop",
+                            "size": 25
+                        },
+                        {
+                            "name": "rock",
+                            "size": 156
+                        },
+                        {
+                            "name": "classic",
+                            "size": 1
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 77
+                        }
+                    ]
+                },
+                {
+                    "name": "Greece",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Portugal",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 6
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 2
+                        },
+                        {
+                            "name": "pop",
+                            "size": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Estonia",
+                    "children": [
+                        {
+                            "name": "folk",
+                            "size": 1
+                        },
+                        {
+                            "name": "pop",
+                            "size": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "Romania",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 5
+                        }
+                    ]
+                },
+                {
+                    "name": "European",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 6
+                        },
+                        {
+                            "name": "metal",
+                            "size": 15
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 3
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 1
+                        },
+                        {
+                            "name": "pop",
+                            "size": 3
+                        },
+                        {
+                            "name": "rock",
+                            "size": 13
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 13
+                        }
+                    ]
+                },
+                {
+                    "name": "Finland",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 26
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 28
+                        },
+                        {
+                            "name": "metal",
+                            "size": 54
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 19
+                        }
+                    ]
+                },
+                {
+                    "name": "Italy",
+                    "children": [
+                        {
+                            "name": "metal",
+                            "size": 5
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 1
+                        },
+                        {
+                            "name": "folk",
+                            "size": 1
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 8
+                        },
+                        {
+                            "name": "pop",
+                            "size": 10
+                        },
+                        {
+                            "name": "rock",
+                            "size": 38
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 29
+                        }
+                    ]
+                },
+                {
+                    "name": "Serbia",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "Sweden",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 3
+                        },
+                        {
+                            "name": "metal",
+                            "size": 8
+                        },
+                        {
+                            "name": "pop",
+                            "size": 12
+                        },
+                        {
+                            "name": "rock",
+                            "size": 10
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 23
+                        }
+                    ]
+                },
+                {
+                    "name": "Spain",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 1
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 9
+                        },
+                        {
+                            "name": "metal",
+                            "size": 5
+                        },
+                        {
+                            "name": "pop",
+                            "size": 4
+                        }
+                    ]
+                },
+                {
+                    "name": "Austria",
+                    "children": [
+                        {
+                            "name": "hip hop",
+                            "size": 6
+                        },
+                        {
+                            "name": "metal",
+                            "size": 17
+                        },
+                        {
+                            "name": "folk",
+                            "size": 2
+                        },
+                        {
+                            "name": "pop",
+                            "size": 1
+                        },
+                        {
+                            "name": "rock",
+                            "size": 3
+                        },
+                        {
+                            "name": "classic",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "France",
+                    "children": [
+                        {
+                            "name": "soul",
+                            "size": 1
+                        },
+                        {
+                            "name": "electro",
+                            "size": 2
+                        },
+                        {
+                            "name": "metal",
+                            "size": 7
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 6
+                        },
+                        {
+                            "name": "rap",
+                            "size": 32
+                        },
+                        {
+                            "name": "pop",
+                            "size": 19
+                        },
+                        {
+                            "name": "rock",
+                            "size": 9
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 17
+                        }
+                    ]
+                },
+                {
+                    "name": "Faroe Islands",
+                    "children": [
+                        {
+                            "name": "metal",
+                            "size": 8
+                        }
+                    ]
+                },
+                {
+                    "name": "Czech Republic",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 2
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 3
+                        },
+                        {
+                            "name": "soul",
+                            "size": 6
+                        }
+                    ]
+                },
+                {
+                    "name": "Poland",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 1
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 20
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 3
+                        },
+                        {
+                            "name": "metal",
+                            "size": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Africa",
+            "children": [
+                {
+                    "name": "South Africa",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 4
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Australia",
+            "children": [
+                {
+                    "name": "Australia",
+                    "children": [
+                        {
+                            "name": "metal",
+                            "size": 5
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 20
+                        },
+                        {
+                            "name": "rap",
+                            "size": 11
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 3
+                        },
+                        {
+                            "name": "pop",
+                            "size": 13
+                        },
+                        {
+                            "name": "rock",
+                            "size": 9
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 10
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Asia",
+            "children": [
+                {
+                    "name": "India",
+                    "children": [
+                        {
+                            "name": "jazz",
+                            "size": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Russia",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 11
+                        },
+                        {
+                            "name": "metal",
+                            "size": 1
+                        }
+                    ]
+                },
+                {
+                    "name": "Japan",
+                    "children": [
+                        {
+                            "name": "soul",
+                            "size": 3
+                        },
+                        {
+                            "name": "electro",
+                            "size": 4
+                        },
+                        {
+                            "name": "metal",
+                            "size": 3
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 8
+                        },
+                        {
+                            "name": "rap",
+                            "size": 2
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 12
+                        },
+                        {
+                            "name": "pop",
+                            "size": 19
+                        },
+                        {
+                            "name": "rock",
+                            "size": 25
+                        },
+                        {
+                            "name": "classic",
+                            "size": 2
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 30
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "America",
+            "children": [
+                {
+                    "name": "Mexico",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 2
+                        }
+                    ]
+                },
+                {
+                    "name": "Brazil",
+                    "children": [
+                        {
+                            "name": "hip hop",
+                            "size": 5
+                        },
+                        {
+                            "name": "metal",
+                            "size": 41
+                        },
+                        {
+                            "name": "rap",
+                            "size": 4
+                        },
+                        {
+                            "name": "pop",
+                            "size": 1
+                        },
+                        {
+                            "name": "rock",
+                            "size": 14
+                        },
+                        {
+                            "name": "classic",
+                            "size": 1
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 17
+                        }
+                    ]
+                },
+                {
+                    "name": "Argentina",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 7
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 12
+                        }
+                    ]
+                },
+                {
+                    "name": "Canada",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 1
+                        },
+                        {
+                            "name": "metal",
+                            "size": 7
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 1
+                        },
+                        {
+                            "name": "folk",
+                            "size": 1
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 1
+                        },
+                        {
+                            "name": "pop",
+                            "size": 5
+                        },
+                        {
+                            "name": "rock",
+                            "size": 14
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 7
+                        }
+                    ]
+                },
+                {
+                    "name": "Venezuela",
+                    "children": [
+                        {
+                            "name": "unknown",
+                            "size": 3
+                        }
+                    ]
+                },
+                {
+                    "name": "United States of America",
+                    "children": [
+                        {
+                            "name": "soul",
+                            "size": 31
+                        },
+                        {
+                            "name": "electro",
+                            "size": 41
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 321
+                        },
+                        {
+                            "name": "metal",
+                            "size": 200
+                        },
+                        {
+                            "name": "folk",
+                            "size": 52
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 86
+                        },
+                        {
+                            "name": "rap",
+                            "size": 27
+                        },
+                        {
+                            "name": "pop",
+                            "size": 204
+                        },
+                        {
+                            "name": "rock",
+                            "size": 548
+                        },
+                        {
+                            "name": "classic",
+                            "size": 25
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 234
+                        }
+                    ]
+                },
+                {
+                    "name": "Chile",
+                    "children": [
+                        {
+                            "name": "rock",
+                            "size": 7
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 6
+                        },
+                        {
+                            "name": "metal",
+                            "size": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "unknown",
+            "children": [
+                {
+                    "name": "Unknown",
+                    "children": [
+                        {
+                            "name": "soul",
+                            "size": 16
+                        },
+                        {
+                            "name": "electro",
+                            "size": 29
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 206
+                        },
+                        {
+                            "name": "metal",
+                            "size": 159
+                        },
+                        {
+                            "name": "folk",
+                            "size": 36
+                        },
+                        {
+                            "name": "rap",
+                            "size": 40
+                        },
+                        {
+                            "name": "jazz",
+                            "size": 5
+                        },
+                        {
+                            "name": "pop",
+                            "size": 175
+                        },
+                        {
+                            "name": "rock",
+                            "size": 416
+                        },
+                        {
+                            "name": "classic",
+                            "size": 23
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 2786
+                        }
+                    ]
+                },
+                {
+                    "name": "World wide",
+                    "children": [
+                        {
+                            "name": "electro",
+                            "size": 10
+                        },
+                        {
+                            "name": "metal",
+                            "size": 20
+                        },
+                        {
+                            "name": "hip hop",
+                            "size": 9
+                        },
+                        {
+                            "name": "folk",
+                            "size": 2
+                        },
+                        {
+                            "name": "rap",
+                            "size": 6
+                        },
+                        {
+                            "name": "pop",
+                            "size": 1
+                        },
+                        {
+                            "name": "rock",
+                            "size": 14
+                        },
+                        {
+                            "name": "unknown",
+                            "size": 20
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
