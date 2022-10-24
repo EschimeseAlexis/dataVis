@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import Treemap from 'treemap-chart';
+import * as d3 from 'd3';
+import flareData from './flare.json';
 
 @Component({
   selector: 'app-third-vue',
@@ -6,10 +9,30 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./third-vue.component.scss']
 })
 export class ThirdVueComponent implements OnInit {
+  loading: boolean;
 
-  constructor() { }
+  @ViewChild('tmChart', {static: true})
+  tmChartEl!: ElementRef;
 
-  ngOnInit(): void {
+  constructor() {
+    this.loading = true;
   }
 
+  ngOnInit() {
+    this.loading = true;
+    const color = d3.scaleOrdinal(d3.schemePaired);
+
+    Treemap()
+      .data(flareData)
+      .size('size')
+      .height(500)
+      .width(1000)
+      .padding(5)
+      .showLabels(true)
+      .tooltipContent((d, node) => `Size: <i>${node.value}</i>`)
+      // @ts-ignore
+      .color(d => color(d.name))(this.tmChartEl.nativeElement);
+
+    this.loading = false;
+  }
 }

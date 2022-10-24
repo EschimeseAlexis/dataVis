@@ -12,7 +12,7 @@ import { SecondVueComponent } from './visualisation/second-vue/second-vue.compon
 import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
-import { IgxTreemapModule } from 'igniteui-angular-charts';
+
 
 @NgModule({
   declarations: [
@@ -29,8 +29,7 @@ import { IgxTreemapModule } from 'igniteui-angular-charts';
     AppRoutingModule,
     MatTabsModule,
     BrowserAnimationsModule,
-    MatButtonToggleModule,
-    IgxTreemapModule
+    MatButtonToggleModule
   ],
   providers: [],
   bootstrap: [AppComponent]
