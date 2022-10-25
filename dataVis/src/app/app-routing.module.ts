@@ -6,7 +6,7 @@ import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component
 
 const routes: Routes = [
   { path : 'first-vue', component : FirstVueComponent },
-  { path : 'second-vue', component : SecondVueComponent },
+  { path : 'second-vue/:index', component : SecondVueComponent },
   { path : 'third-vue', component : ThirdVueComponent }
 ];
 

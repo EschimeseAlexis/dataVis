@@ -1,7 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import Treemap from 'treemap-chart';
 import * as d3 from 'd3';
-import flareData from './flare.json';
+import DataSet from '../../../assets/dataset/jsongeneral.json';
 
 @Component({
   selector: 'app-third-vue',
@@ -23,7 +23,7 @@ export class ThirdVueComponent implements OnInit {
     const color = d3.scaleOrdinal(d3.schemePaired);
 
     Treemap()
-      .data(flareData)
+      .data(DataSet)
       .size('size')
       .height(500)
       .width(1000)
@@ -31,7 +31,8 @@ export class ThirdVueComponent implements OnInit {
       .showLabels(true)
       .tooltipContent((d, node) => `Size: <i>${node.value}</i>`)
       // @ts-ignore
-      .color(d => color(d.name))(this.tmChartEl.nativeElement);
+      .color(d => d.color)(this.tmChartEl.nativeElement);
+      //.color(d => color(d.name))(this.tmChartEl.nativeElement);
 
     this.loading = false;
   }

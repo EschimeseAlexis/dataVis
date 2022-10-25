@@ -3,5 +3,42 @@
     <div [hidden]="loading">
       <div id="sbChart" #sbChart></div>
     </div>
+    <mat-button-toggle-group name="visualisation-technique" aria-label="Visualisation technique">
+      <a [routerLink]="['/second-vue', '0']">
+      <mat-button-toggle value=0>
+        general
+      </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/second-vue', '1']">
+      <mat-button-toggle value=1>
+        50-65
+      </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/second-vue', '2']">
+      <mat-button-toggle value=2>
+        65-80
+      </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/second-vue', '3']">
+      <mat-button-toggle value=3>
+        80-95
+      </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/second-vue', '4']">
+      <mat-button-toggle value=4>
+        95-10
+      </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/second-vue', '5']">
+        <mat-button-toggle value=5>
+          10-25
+        </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/second-vue', '6']">
+      <mat-button-toggle value=6>
+        unknown
+      </mat-button-toggle>
+      </a>
+    </mat-button-toggle-group>
   </div>
 </div>
