@@ -12,6 +12,7 @@ import { SecondVueComponent } from './visualisation/second-vue/second-vue.compon
 import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatTooltipModule } from "@angular/material/tooltip";
 
 
 @NgModule({
@@ -24,13 +25,14 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
     ThirdVueComponent,
     SidenavComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    MatTabsModule,
-    BrowserAnimationsModule,
-    MatButtonToggleModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        MatTabsModule,
+        BrowserAnimationsModule,
+        MatButtonToggleModule,
+        MatTooltipModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { ActivatedRoute, Params, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import Sunburst from 'sunburst-chart';
 import DataSet from '../../../assets/dataset/jsongeneral.json';
 import DataSet50 from '../../../assets/dataset/json1950.json';

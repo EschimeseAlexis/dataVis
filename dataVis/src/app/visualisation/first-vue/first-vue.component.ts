@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-first-vue',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstVueComponent implements OnInit {
 
-  constructor() { }
+  chosenIndex: number;
 
-  ngOnInit(): void {
+  constructor(private _activatedRoute: ActivatedRoute, private router: Router) {
+    this.chosenIndex = 0;
   }
 
+  ngOnInit() {
+    this.router.routeReuseStrategy.shouldReuseRoute = () => false;
+
+    // @ts-ignore
+    this.chosenIndex = (this._activatedRoute.snapshot.paramMap.get("index") === null) ? 0 : parseInt(this._activatedRoute.snapshot.paramMap.get("index"));
+  }
 }

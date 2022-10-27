@@ -13,12 +13,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 
-html, body { height: 100%; background: #28262d; width: 100%;}
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body { height: 100%; background: #28262d; width: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
 * { color: aliceblue; }
 
 .main {
-  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -30,10 +29,114 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   .main-card {
     margin: 0 1.5rem 0.9rem 0;
     width: 78%;
-    height: 88%;
+    height: 900px;
     background: #3f3e48;
     border-radius: 5px;
     -webkit-box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
     box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+
+    .main-card-header {
+      width: 100%;
+      height: 15%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .main-card-title {
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        height: 100%;
+
+        .main-card-title-small {
+          width: 100%;
+          margin: -0.5rem 1rem 1rem 1rem;
+          font-size: 0.8rem;
+          color: grey;
+        }
+
+        .main-card-title-big {
+          width: 100%;
+          margin: -3rem 1rem 1rem 1rem;
+          font-size: 1.5rem;
+          color: #ffffff;
+        }
+      }
+
+      .main-card-header-buttons {
+        margin: 1rem;
+
+        .border-left {
+          border-radius: 20px 0 0 20px;
+          position: relative;
+          top: 6px;
+        }
+
+        .border-right {
+          border-radius: 0 20px 20px 0;
+          position: relative;
+          top: 6px;
+        }
+
+        button {
+          width: 4rem;
+          height: 2rem;
+          background: transparent;
+          color: #d077e8;
+          border: 1px #d077e8 solid;
+          font-weight: bold;
+        }
+
+        button:disabled {
+          background: linear-gradient(#d077e8, #8b4afc);
+          border: none;
+          color: white;
+          -webkit-box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+          box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+        }
+
+        button:hover {
+          position: relative;
+          bottom: 5px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .middle-cards {
+    margin: 1rem 1.5rem 0.9rem 0;
+    width: 78%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .small-card {
+      width: 32%;
+      height: 100%;
+      background: #3f3e48;
+      border-radius: 5px;
+      -webkit-box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+      box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+    }
+  }
+
+  .end-cards {
+    margin: 1rem 1.5rem 0.9rem 0;
+    width: 78%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .medium-card {
+      width: 49%;
+      height: 100%;
+      background: #3f3e48;
+      border-radius: 5px;
+      -webkit-box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+      box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+    }
   }
 }

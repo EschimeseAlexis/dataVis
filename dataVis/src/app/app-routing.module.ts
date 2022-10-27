@@ -7,7 +7,7 @@ import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component
 const routes: Routes = [
   { path : 'first-vue', component : FirstVueComponent },
   { path : 'second-vue/:index', component : SecondVueComponent },
-  { path : 'third-vue', component : ThirdVueComponent }
+  { path : 'third-vue/:index', component : ThirdVueComponent }
 ];
 
 @NgModule({

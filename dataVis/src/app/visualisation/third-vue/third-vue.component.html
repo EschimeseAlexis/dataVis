@@ -1,7 +1,62 @@
+<app-header></app-header>
 <div class="main">
   <div class="main-card">
-    <div [hidden]="loading">
+    <div class="main-card-header">
+      <div class="main-card-title">
+        <h3 class="main-card-title-small">
+          Visualisation III
+        </h3>
+        <h2 class="main-card-title-big">
+          TreeMap Diagram
+        </h2>
+      </div>
+
+      <div class="main-card-header-buttons">
+        <button [routerLink]="['/third-vue', '0']" [disabled]="this.chosenIndex === 0" class="border-left">
+          All time
+        </button>
+        <button [routerLink]="['/third-vue', '1']" [disabled]="this.chosenIndex === 1">
+          1950 - 1965
+        </button>
+        <button [routerLink]="['/third-vue', '2']" [disabled]="this.chosenIndex === 2">
+          1965 - 1980
+        </button>
+        <button [routerLink]="['/third-vue', '3']" [disabled]="this.chosenIndex === 3">
+          1980 - 1995
+        </button>
+        <button [routerLink]="['/third-vue', '4']" [disabled]="this.chosenIndex === 4">
+          1995 - 2010
+        </button>
+        <button [routerLink]="['/third-vue', '5']" [disabled]="this.chosenIndex === 5">
+          2010 - 2022
+        </button>
+        <button [routerLink]="['/third-vue', '6']" [disabled]="this.chosenIndex === 6" class="border-right">
+          NA
+        </button>
+      </div>
+    </div>
+    <div [hidden]="loading" id="tmDiv">
       <div id="tmChart" #tmChart></div>
     </div>
   </div>
+  <div class="middle-cards">
+    <div class="small-card">
+      Hello
+    </div>
+    <div class="small-card">
+      Hello
+    </div>
+    <div class="small-card">
+      Hello
+    </div>
+  </div>
+  <div class="end-cards">
+    <div class="medium-card">
+      ALOA
+    </div>
+    <div class="medium-card">
+      ALOA
+    </div>
+  </div>
+  <app-footer></app-footer>
 </div>
