@@ -29,6 +29,7 @@
     "@geoman-io/leaflet-geoman-free": "^2.13.0",
     "@igniteui/material-icons-extended": "^2.10.0",
     "@swimlane/ngx-charts": "^20.1.0",
+    "angular-google-charts": "^2.2.3",
     "@syncfusion/ej2-angular-maps": "^20.3.49",
     "@types/leaflet-draw": "^1.0.5",
     "@types/node": "^18.11.7",
