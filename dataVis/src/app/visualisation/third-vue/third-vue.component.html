@@ -39,23 +39,33 @@
       <div id="tmChart" #tmChart></div>
     </div>
   </div>
-  <div class="middle-cards">
-    <div class="small-card">
-      Hello
-    </div>
-    <div class="small-card">
-      Hello
-    </div>
-    <div class="small-card">
-      Hello
-    </div>
-  </div>
   <div class="end-cards">
     <div class="medium-card">
-      ALOA
+      <app-bar-chart></app-bar-chart>
     </div>
     <div class="medium-card">
-      ALOA
+      <app-line-chart></app-line-chart>
+    </div>
+  </div>
+  <div class="middle-cards">
+    <div class="small-card">
+      <div class="small-card-pie-chart">
+        <app-pie-chart></app-pie-chart>
+      </div>
+    </div>
+    <div class="large-card">
+      <p class="description">
+        A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns,
+        such as which items are a store's best sellers. The tree branches are represented by rectangles
+        and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by
+        color and proximity and can easily show lots of data which would be difficult with other chart types.
+        Treemap charts are good for comparing proportions within the hierarchy, however, treemap charts aren't
+        great at showing hierarchical levels between the largest categories and each data point. A sunburst
+        chart is a much better visual chart for showing that.
+      </p>
+      <p class="legend">
+        Microsoft Corporation (MSFT)
+      </p>
     </div>
   </div>
   <app-footer></app-footer>

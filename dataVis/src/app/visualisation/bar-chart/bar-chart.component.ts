@@ -8,18 +8,19 @@ import { ChartType } from 'angular-google-charts';
 })
 export class BarChartComponent implements OnInit {
 
-  title = 'Number of Albums by Genre';
+  title = 'Number of Albums by Genre (ALL TIME)';
   type : ChartType = ChartType.ColumnChart;
   data = [
-    ["Electro", 900],
-    ["Metal", 1000],
-    ["Pop", 1170],
-    ["Rock", 1250],
-    ["Folk", 1250],
-    ["Hip-Hop", 1250],
-    ["Jazz", 1250],
-    ["Rap", 1250],
-    ["Classic", 1530]
+    ["Electro", 198],
+    ["Metal", 747],
+    ["Pop", 579],
+    ["Rock", 1591],
+    ["Folk", 122],
+    ["Hip-Hop", 738],
+    ["Jazz", 130],
+    ["Rap", 128],
+    ["Classic", 58],
+    ["Soul", 57]
   ];
   columns = ['Genre', 'Quantity'];
   options = {
