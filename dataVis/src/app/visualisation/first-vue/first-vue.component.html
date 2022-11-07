@@ -10,7 +10,6 @@
           Chronopleth Map
         </h2>
       </div>
-
       <div class="main-card-header-buttons">
         <button [routerLink]="['/first-vue', '0']" [disabled]="this.chosenIndex === 0" class="border-left">
           All time
@@ -34,26 +33,14 @@
           NA
         </button>
       </div>
+
     </div>
+    <ejs-maps id='container' style="display:block;" format='n' useGroupingSeparator=true [zoomSettings]='zoomSettings' [layers]='layers'
+              [titleSettings]="titleSettings" (bubbleRendering)="bubbleRendering($event)" (load)="load($event)"
+              format='n' useGroupingSeparator="true">
+    </ejs-maps>
   </div>
-  <div class="middle-cards">
-    <div class="small-card">
-      Hello
-    </div>
-    <div class="small-card">
-      Hello
-    </div>
-    <div class="small-card">
-      Hello
-    </div>
+  <div>
   </div>
-  <div class="end-cards">
-    <div class="medium-card">
-      ALOA
-    </div>
-    <div class="medium-card">
-      ALOA
-    </div>
-  </div>
-  <app-footer></app-footer>
 </div>
+<app-footer></app-footer>

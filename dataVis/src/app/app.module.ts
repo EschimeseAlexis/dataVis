@@ -17,7 +17,9 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatTooltipModule } from "@angular/material/tooltip";
 import { PieChartComponent } from './visualisation/pie-chart/pie-chart.component';
 import { BarChartComponent } from './visualisation/bar-chart/bar-chart.component';
-
+import { LeafletModule  } from '@asymmetrik/ngx-leaflet';
+import { MapsModule } from '@syncfusion/ej2-angular-maps';
+import { LegendService, MarkerService, MapsTooltipService, DataLabelService, BubbleService, NavigationLineService, SelectionService, AnnotationsService, ZoomService } from '@syncfusion/ej2-angular-maps';
 
 @NgModule({
   declarations: [
@@ -33,15 +35,28 @@ import { BarChartComponent } from './visualisation/bar-chart/bar-chart.component
     BarChartComponent
   ],
     imports: [
-        BrowserModule,
-        AppRoutingModule,
-        MatTabsModule,
-        BrowserAnimationsModule,
-        MatButtonToggleModule,
-        MatTooltipModule,
-        GoogleChartsModule
+      BrowserModule,
+      AppRoutingModule,
+      MatTabsModule,
+      BrowserAnimationsModule,
+      MatButtonToggleModule,
+      MatTooltipModule,
+      GoogleChartsModule,
+      LeafletModule,
+      MapsModule,
     ],
-  providers: [],
+  providers: [
+    LegendService,
+    MarkerService,
+    MapsTooltipService,
+    DataLabelService,
+    BubbleService,
+    NavigationLineService ,
+    SelectionService,
+    AnnotationsService,
+    ZoomService
+  ],
+
   bootstrap: [AppComponent]
 })
 export class AppModule {
