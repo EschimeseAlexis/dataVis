@@ -9,7 +9,7 @@
       <div class="line"></div>
     </div>
     <mat-button-toggle-group name="visualisation-technique" aria-label="Visualisation technique">
-      <a routerLink="/first-vue">
+      <a [routerLink]="['/first-vue', '0']">
         <mat-button-toggle value="first">
           <img src="../../assets/afrique.png" alt="PolyMTV logo"/>
           HeatMap
