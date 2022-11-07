@@ -112,13 +112,39 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
     flex-direction: row;
     justify-content: space-between;
 
-    .small-card {
-      width: 32%;
+    .large-card {
+      width: 65%;
       height: 100%;
       background: #3f3e48;
       border-radius: 5px;
       -webkit-box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
       box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+
+      .description {
+        margin: 1rem 1rem 1rem 1rem;
+        text-align: justify;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+
+      .legend {
+        margin: 0 1rem 0 1rem;
+        font-size: 0.6rem;
+        font-style: italic;
+      }
+    }
+
+    .small-card {
+      width: 33%;
+      height: 100%;
+      background: #3f3e48;
+      border-radius: 5px;
+      -webkit-box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+      box-shadow: 5px 7px 15px -1px rgba(0,0,0,0.75);
+
+      .small-card-pie-chart {
+        padding-top: 2.2rem;
+      }
     }
   }
 
