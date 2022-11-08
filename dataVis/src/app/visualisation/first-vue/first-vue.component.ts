@@ -1,17 +1,16 @@
 import { ActivatedRoute, Router } from '@angular/router';
 import { Component, ViewEncapsulation, OnInit } from '@angular/core';
-import { MapsTheme, Maps, Bubble, IBubbleRenderingEventArgs, MapsTooltip, ILoadEventArgs, } from '@syncfusion/ej2-angular-maps';
+import { MapsTheme, Maps, Bubble, IBubbleRenderingEventArgs, MapsTooltip, ILoadEventArgs, Legend, Marker, Zoom} from '@syncfusion/ej2-angular-maps';
 import worldMap from './world-map.json';
-import wasbiData from '../../../../../data/wazajson-v5.json';
+import json1950 from '../../../assets/dataset/time-v5/json1950.json';
+import json1965 from '../../../assets/dataset/time-v5/json1965.json';
+import json1980 from '../../../assets/dataset/time-v5/json1980.json';
+import json1995 from '../../../assets/dataset/time-v5/json1995.json';
+import json2010 from '../../../assets/dataset/time-v5/json2010.json';
+import jsonUnknown from '../../../assets/dataset/time-v5/jsonunknown.json';
+import DataSet from '../../../assets/dataset/jsongeneral.json';
 
-import json1950 from '../../../../../data/time-v4/json1950.json';
-import json1965 from '../../../../../data/time-v4/json1965.json';
-import json1980 from '../../../../../data/time-v4/json1980.json';
-import json1995 from '../../../../../data/time-v4/json1995.json';
-import json2010 from '../../../../../data/time-v4/json2010.json';
-import jsonunknown from '../../../../../data/time-v4/jsonunknown.json';
-
-Maps.Inject(Bubble, MapsTooltip);
+Maps.Inject(Bubble, Marker, MapsTooltip, Legend, Zoom);
 export interface Data { value?: number; }
 
 @Component({
@@ -33,40 +32,40 @@ export class FirstVueComponent implements OnInit  {
     // @ts-ignore
     this.chosenIndex = (this._activatedRoute.snapshot.paramMap.get("index") === null) ? 0 : parseInt(this._activatedRoute.snapshot.paramMap.get("index"));
     if(this.chosenIndex == 0){
-      wasbiData.forEach((data: any) => {
-        if(data.parent == null){
-          this.data.push({rank: data.rank, name: data.name, value: this.bubblesize(data.population),
-            population: data.population, color: data.color})
-        }
-      });
+      this.createBubble(DataSet, 2);
     }
     else if (this.chosenIndex == 1){
-      this.createBubble(json1950);
+      this.createBubble(json1950, 10);
     } else if (this.chosenIndex == 2){
-      this.createBubble(json1965);
+      this.createBubble(json1965, 3);
     } else if (this.chosenIndex == 3){
-      this.createBubble(json1980);
+      this.createBubble(json1980, 2);
     } else if (this.chosenIndex == 4){
-      this.createBubble(json1995);
+      this.createBubble(json1995, 2);
     } else if (this.chosenIndex == 5){
-      this.createBubble(json2010);
+      this.createBubble(json2010, 2);
     } else {
-      this.createBubble(jsonunknown);
+      this.createBubble(jsonUnknown, 1);
     }
   }
 
-  createBubble(list: any){
+  createBubble(list: any, zoom: number){
     list.children.forEach((data: any) => {
       data.children.forEach((data2: any) => {
         let somme = 0;
         let genres = '<br>';
+        let i = 0;
         data2.children.forEach((data2: any) => {
+          i++;
           somme += data2.size;
-          genres += data2.size + " " + data2.name + "<br>";
+          if(i%2 == 0)
+            genres += data2.size + " " + data2.name + "<br>";
+          else
+            genres += data2.size + " " + data2.name + ", ";
         });
 
-        this.data.push({rank: 0, name: data2.name, value: this.bubblesize(somme*10),
-          population: somme, color: data.color, genres: genres});
+        this.data.push({rank: 0, name: data2.name, value: this.bubblesize(somme*zoom),
+          population: somme, color: undefined, genres: genres});
       });
     });
   }
@@ -88,11 +87,28 @@ export class FirstVueComponent implements OnInit  {
   }
 
   public titleSettings : object =  {
-    text: 'Description ici !',
+    text: `Nombre d'albums par pays`,
     titleStyle: {
-      size: '16px'
+      size: '16px',
+      fontFamily: 'inherit'
     }
   }
+
+  public legendSettings: object = {
+    visible: true,
+    position: 'Float',
+    location: {
+      x: 10,
+      y: 262
+    },
+    height:'170px',
+    type: 'Markers',
+    background: '#E6E6E6',
+    textStyle: {
+      color: '#000000',
+      fontFamily: 'inherit'
+    },
+  };
 
   public layers: object[] =  [
     {
@@ -114,7 +130,7 @@ export class FirstVueComponent implements OnInit  {
           tooltipSettings: {
             visible: true,
             valuePath: 'population',
-            template: '<div id="template"> <div class="toolback"> <div class="listing2"> <center> ${name} </center> </div> <hr style="margin-top: 2px;margin-bottom:5px;border:0.5px solid #DDDDDD"> <div> <span class="listing1">Rank : </span><span class="listing2">${rank}</span> </div> <div> <span class="listing1">Population : </span><span class="listing2">${population}</span> </div> <div> <span class="listing1">Genres : </span><span class="listing2">${genres}</span> </div> </div> </div>'
+            template: '<div id="template"> <div class="toolback"> <div class="listing2"> <center> ${name} </center> </div> <hr style="margin-top: 2px;margin-bottom:5px;border:0.5px solid #DDDDDD"> <div> <span class="listing1">Albums : </span><span class="listing2">${population}</span> </div> <div> <span class="listing1">Genres : </span><span class="listing2">${genres}</span> </div> </div> </div>'
           },
         }
       ]
