@@ -8,6 +8,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainCardComponent } from './visualisation/main-card/main-card.component';
 import { FirstVueComponent } from './visualisation/first-vue/first-vue.component';
 import { SecondVueComponent } from './visualisation/second-vue/second-vue.component';
 import { ThirdVueComponent } from './visualisation/third-vue/third-vue.component';
@@ -26,13 +27,14 @@ import { LegendService, MarkerService, MapsTooltipService, DataLabelService, Bub
     AppComponent,
     HeaderComponent,
     FooterComponent,
+    MainCardComponent,
     FirstVueComponent,
     SecondVueComponent,
     ThirdVueComponent,
     SidenavComponent,
     LineChartComponent,
     PieChartComponent,
-    BarChartComponent
+    BarChartComponent,
   ],
     imports: [
       BrowserModule,

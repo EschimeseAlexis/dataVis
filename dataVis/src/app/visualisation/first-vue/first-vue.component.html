@@ -7,7 +7,7 @@
           Visualisation I
         </h3>
         <h2 class="main-card-title-big">
-          Chronopleth Map
+          Bubble Map
         </h2>
       </div>
       <div class="main-card-header-buttons">
@@ -40,7 +40,35 @@
               format='n' useGroupingSeparator="true" [legendSettings]="legendSettings">
     </ejs-maps>
   </div>
-  <div>
+  <div class="middle-cards">
+    <div class="small-card">
+      <div class="small-card-pie-chart">
+        <app-pie-chart></app-pie-chart>
+      </div>
+    </div>
+    <div class="large-card">
+      <p class="description">
+        A bubble chart is a variation of a scatter chart in which the data
+        points are replaced with bubbles, and an additional dimension of the
+        data is represented in the size of the bubbles. Just like a scatter
+        chart, a bubble chart does not use a category axis — both horizontal
+        and vertical axes are value axes. You can use a bubble chart if your
+        data has three data series that each contain a set of values. The sizes
+        of the bubbles are determined by the values in the third data series.
+        Different bubble sizes are useful to visually emphasize specific values.
+      </p>
+      <p class="legend">
+        Microsoft Corporation (MSFT)
+      </p>
+    </div>
   </div>
+  <div class="end-cards">
+    <div class="medium-card">
+      <app-line-chart></app-line-chart>
+    </div>
+    <div class="medium-card">
+      <app-bar-chart></app-bar-chart>
+    </div>
+  </div>
+  <app-footer></app-footer>
 </div>
-<app-footer></app-footer>

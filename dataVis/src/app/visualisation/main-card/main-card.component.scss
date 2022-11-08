@@ -1,0 +1,22 @@
+#home {
+  height: 89.5%;
+  width: 100%;
+}
+
+#arrow {
+  width: 500px;
+  height: 500px;
+  rotate: -110deg;
+  transform: scaleY(-1);
+  position: fixed;
+  top: 10%;
+  left: 20%;
+}
+
+#text {
+   font-size: 6rem;
+   rotate: 40deg;
+   position: fixed;
+   top: 22%;
+   left: 42%;
+ }

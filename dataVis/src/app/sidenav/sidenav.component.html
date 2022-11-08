@@ -9,12 +9,6 @@
       <div class="line"></div>
     </div>
     <mat-button-toggle-group name="visualisation-technique" aria-label="Visualisation technique">
-      <a [routerLink]="['/first-vue', '0']">
-        <mat-button-toggle value="first">
-          <img src="../../assets/afrique.png" alt="PolyMTV logo"/>
-          BubbleMap
-        </mat-button-toggle>
-      </a>
       <a [routerLink]="['/second-vue', '0']">
         <mat-button-toggle value="second">
           <img src="../../assets/sunburst.png" alt="PolyMTV logo"/>
@@ -25,6 +19,12 @@
         <mat-button-toggle value="third">
           <img src="../../assets/graphique-treemap.png" alt="PolyMTV logo"/>
           TreeMap
+        </mat-button-toggle>
+      </a>
+      <a [routerLink]="['/first-vue', '0']">
+        <mat-button-toggle value="first">
+          <img src="../../assets/afrique.png" alt="PolyMTV logo"/>
+          BubbleMap
         </mat-button-toggle>
       </a>
     </mat-button-toggle-group>
