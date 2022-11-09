@@ -47,7 +47,6 @@ export class ThirdVueComponent implements OnInit {
       .tooltipContent((d, node) => `Size: <i>${node.value}</i>`)
       // @ts-ignore
       .color(d => d.color)(this.tmChartEl.nativeElement);
-      //.color(d => color(d.name))(this.tmChartEl.nativeElement);
 
     this.loading = false;
   }
