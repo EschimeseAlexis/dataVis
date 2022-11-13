@@ -1,5 +1,74 @@
+<app-header></app-header>
 <div class="main">
   <div class="main-card">
-    first-vue works!
+    <div class="main-card-header">
+      <div class="main-card-title">
+        <h3 class="main-card-title-small">
+          Visualisation I
+        </h3>
+        <h2 class="main-card-title-big">
+          Bubble Map
+        </h2>
+      </div>
+      <div class="main-card-header-buttons">
+        <button [routerLink]="['/first-vue', '0']" [disabled]="this.chosenIndex === 0" class="border-left">
+          All time
+        </button>
+        <button [routerLink]="['/first-vue', '1']" [disabled]="this.chosenIndex === 1">
+          1950 - 1965
+        </button>
+        <button [routerLink]="['/first-vue', '2']" [disabled]="this.chosenIndex === 2">
+          1965 - 1980
+        </button>
+        <button [routerLink]="['/first-vue', '3']" [disabled]="this.chosenIndex === 3">
+          1980 - 1995
+        </button>
+        <button [routerLink]="['/first-vue', '4']" [disabled]="this.chosenIndex === 4">
+          1995 - 2010
+        </button>
+        <button [routerLink]="['/first-vue', '5']" [disabled]="this.chosenIndex === 5">
+          2010 - 2022
+        </button>
+        <button [routerLink]="['/first-vue', '6']" [disabled]="this.chosenIndex === 6" class="border-right">
+          NA
+        </button>
+      </div>
+
+    </div>
+    <ejs-maps id='container' style="display:block;" format='n' useGroupingSeparator=true [zoomSettings]='zoomSettings' [layers]='layers'
+              [titleSettings]="titleSettings" (bubbleRendering)="bubbleRendering($event)" (load)="load($event)"
+              format='n' useGroupingSeparator="true" [legendSettings]="legendSettings">
+    </ejs-maps>
   </div>
+  <div class="middle-cards">
+    <div class="small-card">
+      <div class="small-card-pie-chart">
+        <app-pie-chart></app-pie-chart>
+      </div>
+    </div>
+    <div class="large-card">
+      <p class="description">
+        A bubble chart is a variation of a scatter chart in which the data
+        points are replaced with bubbles, and an additional dimension of the
+        data is represented in the size of the bubbles. Just like a scatter
+        chart, a bubble chart does not use a category axis — both horizontal
+        and vertical axes are value axes. You can use a bubble chart if your
+        data has three data series that each contain a set of values. The sizes
+        of the bubbles are determined by the values in the third data series.
+        Different bubble sizes are useful to visually emphasize specific values.
+      </p>
+      <p class="legend">
+        Microsoft Corporation (MSFT)
+      </p>
+    </div>
+  </div>
+  <div class="end-cards">
+    <div class="medium-card">
+      <app-line-chart></app-line-chart>
+    </div>
+    <div class="medium-card">
+      <app-bar-chart></app-bar-chart>
+    </div>
+  </div>
+  <app-footer></app-footer>
 </div>

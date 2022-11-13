@@ -1,0 +1,588 @@
+{
+  "name": "World",
+  "color": "#ffffff",
+  "children": [
+    {
+      "name": "Australia",
+      "color": "#c01efc",
+      "children": [
+        {
+          "name": "Australia",
+          "color": "#d273f5",
+          "children": [
+            {
+              "name": "jazz",
+              "color": "#b269d6",
+              "size": 3
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 2
+            },
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Europe",
+      "color": "#efccfc",
+      "children": [
+        {
+          "name": "Belgium",
+          "color": "#f78deb",
+          "children": [
+            {
+              "name": "electro",
+              "color": "#f774da",
+              "size": 3
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 3
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "color": "#5c1452",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 6
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 5
+            },
+            {
+              "name": "rap",
+              "color": "#c191d9",
+              "size": 6
+            }
+          ]
+        },
+        {
+          "name": "Great Britain",
+          "color": "#f76fe8",
+          "children": [
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 4
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 47
+            },
+            {
+              "name": "rap",
+              "color": "#c191d9",
+              "size": 1
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 8
+            },
+            {
+              "name": "classic",
+              "color": "#8900cc",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 1
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 13
+            },
+            {
+              "name": "electro",
+              "color": "#f774da",
+              "size": 7
+            }
+          ]
+        },
+        {
+          "name": "Portugal",
+          "color": "#bd48b0",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 1
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Austria",
+          "color": "#5e0a53",
+          "children": [
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 1
+            },
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Finland",
+          "color": "#87447f",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 8
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 2
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "color": "#c221b0",
+          "children": [
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 21
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 37
+            },
+            {
+              "name": "folk",
+              "color": "#de02ad",
+              "size": 3
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 2
+            },
+            {
+              "name": "classic",
+              "color": "#8900cc",
+              "size": 1
+            },
+            {
+              "name": "rap",
+              "color": "#c191d9",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 9
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 26
+            },
+            {
+              "name": "electro",
+              "color": "#f774da",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "color": "#fa37e4",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 13
+            },
+            {
+              "name": "electro",
+              "color": "#f774da",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 3
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 2
+            }
+          ]
+        },
+        {
+          "name": "European",
+          "color": "#85527f",
+          "children": [
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 2
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 2
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 3
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 4
+            }
+          ]
+        },
+        {
+          "name": "Sweden",
+          "color": "#7d0c6e",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 2
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 3
+            }
+          ]
+        },
+        {
+          "name": "Norway",
+          "color": "#fcacf3",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 4
+            }
+          ]
+        },
+        {
+          "name": "Poland",
+          "color": "#5c3357",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 3
+            }
+          ]
+        },
+        {
+          "name": "Slovenia",
+          "color": "#f754e5",
+          "children": [
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Italy",
+          "color": "#823178",
+          "children": [
+            {
+              "name": "jazz",
+              "color": "#b269d6",
+              "size": 3
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 9
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 8
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 8
+            }
+          ]
+        },
+        {
+          "name": "Denmark",
+          "color": "#e602cd",
+          "children": [
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "color": "#a002db",
+      "children": [
+        {
+          "name": "World wide",
+          "color": "#f882fa",
+          "children": [
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 2
+            }
+          ]
+        },
+        {
+          "name": "unknown",
+          "color": "#f6abf7",
+          "children": [
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 53
+            },
+            {
+              "name": "soul",
+              "color": "#f79ee3",
+              "size": 2
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 78
+            },
+            {
+              "name": "folk",
+              "color": "#de02ad",
+              "size": 3
+            },
+            {
+              "name": "jazz",
+              "color": "#b269d6",
+              "size": 1
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 23
+            },
+            {
+              "name": "classic",
+              "color": "#8900cc",
+              "size": 4
+            },
+            {
+              "name": "rap",
+              "color": "#c191d9",
+              "size": 3
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 138
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 43
+            },
+            {
+              "name": "electro",
+              "color": "#f774da",
+              "size": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "America",
+      "color": "#be19fc",
+      "children": [
+        {
+          "name": "Canada",
+          "color": "#d573fa",
+          "children": [
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 1
+            },
+            {
+              "name": "folk",
+              "color": "#de02ad",
+              "size": 1
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Chile",
+          "color": "#6a0e8f",
+          "children": [
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 1
+            }
+          ]
+        },
+        {
+          "name": "Argentina",
+          "color": "#e29dfc",
+          "children": [
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 7
+            }
+          ]
+        },
+        {
+          "name": "United States of America",
+          "color": "#44045e",
+          "children": [
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 54
+            },
+            {
+              "name": "soul",
+              "color": "#f79ee3",
+              "size": 7
+            },
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 115
+            },
+            {
+              "name": "folk",
+              "color": "#de02ad",
+              "size": 9
+            },
+            {
+              "name": "jazz",
+              "color": "#b269d6",
+              "size": 14
+            },
+            {
+              "name": "pop",
+              "color": "#a84bd6",
+              "size": 35
+            },
+            {
+              "name": "rap",
+              "color": "#c191d9",
+              "size": 6
+            },
+            {
+              "name": "classic",
+              "color": "#8900cc",
+              "size": 6
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 23
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 43
+            },
+            {
+              "name": "electro",
+              "color": "#f774da",
+              "size": 3
+            }
+          ]
+        },
+        {
+          "name": "Brazil",
+          "color": "#edc5fc",
+          "children": [
+            {
+              "name": "rock",
+              "color": "#9a2ad1",
+              "size": 6
+            },
+            {
+              "name": "hip hop",
+              "color": "#f549cf",
+              "size": 1
+            },
+            {
+              "name": "unknown",
+              "color": "#560180",
+              "size": 1
+            },
+            {
+              "name": "metal",
+              "color": "#f522c6",
+              "size": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,72 @@
+<app-header></app-header>
 <div class="main">
   <div class="main-card">
-    <div [hidden]="loading">
+    <div class="main-card-header">
+      <div class="main-card-title">
+        <h3 class="main-card-title-small">
+          Visualisation III
+        </h3>
+        <h2 class="main-card-title-big">
+          TreeMap Diagram
+        </h2>
+      </div>
+
+      <div class="main-card-header-buttons">
+        <button [routerLink]="['/third-vue', '0']" [disabled]="this.chosenIndex === 0" class="border-left">
+          All time
+        </button>
+        <button [routerLink]="['/third-vue', '1']" [disabled]="this.chosenIndex === 1">
+          1950 - 1965
+        </button>
+        <button [routerLink]="['/third-vue', '2']" [disabled]="this.chosenIndex === 2">
+          1965 - 1980
+        </button>
+        <button [routerLink]="['/third-vue', '3']" [disabled]="this.chosenIndex === 3">
+          1980 - 1995
+        </button>
+        <button [routerLink]="['/third-vue', '4']" [disabled]="this.chosenIndex === 4">
+          1995 - 2010
+        </button>
+        <button [routerLink]="['/third-vue', '5']" [disabled]="this.chosenIndex === 5">
+          2010 - 2022
+        </button>
+        <button [routerLink]="['/third-vue', '6']" [disabled]="this.chosenIndex === 6" class="border-right">
+          NA
+        </button>
+      </div>
+    </div>
+    <div [hidden]="loading" id="tmDiv">
       <div id="tmChart" #tmChart></div>
     </div>
   </div>
+  <div class="end-cards">
+    <div class="medium-card">
+      <app-bar-chart></app-bar-chart>
+    </div>
+    <div class="medium-card">
+      <app-line-chart></app-line-chart>
+    </div>
+  </div>
+  <div class="middle-cards">
+    <div class="small-card">
+      <div class="small-card-pie-chart">
+        <app-pie-chart></app-pie-chart>
+      </div>
+    </div>
+    <div class="large-card">
+      <p class="description">
+        A treemap chart provides a hierarchical view of your data and makes it easy to spot patterns,
+        such as which items are a store's best sellers. The tree branches are represented by rectangles
+        and each sub-branch is shown as a smaller rectangle. The treemap chart displays categories by
+        color and proximity and can easily show lots of data which would be difficult with other chart types.
+        Treemap charts are good for comparing proportions within the hierarchy, however, treemap charts aren't
+        great at showing hierarchical levels between the largest categories and each data point. A sunburst
+        chart is a much better visual chart for showing that.
+      </p>
+      <p class="legend">
+        Microsoft Corporation (MSFT)
+      </p>
+    </div>
+  </div>
+  <app-footer></app-footer>
 </div>

@@ -1,9 +1,23 @@
 .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: purple;
-  color: white;
-  text-align: center;
+  position: relative;
+  width: 90rem;
+  height: 80px;
+  border-bottom: 2px solid #d077e8;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 0.8rem;
+
+  .git {
+    margin: 0 39rem 1rem 0;
+
+    a{
+      text-decoration: none;
+    }
+  }
+
+  .credits {
+    margin: 0 1.8rem 1rem 0;
+  }
 }
